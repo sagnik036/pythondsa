@@ -1,10 +1,9 @@
-"""linkded list"""
-
+"""linkded list printing and storing (BASIC) time complexity : o(n^2)"""
 class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
-    
+   
 def takeInput():
     inputList=[int(i) for i in input().split(' ')]
     head = None
